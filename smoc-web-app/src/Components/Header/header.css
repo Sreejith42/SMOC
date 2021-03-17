@@ -1,3 +1,16 @@
+
+header {
+  height: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-link-part {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
 .header {
     position: absolute !important;
     top: 0;
@@ -75,3 +88,4 @@ a:active,
 .active{
     color: rgb(68, 167, 206) !important;
 }
+

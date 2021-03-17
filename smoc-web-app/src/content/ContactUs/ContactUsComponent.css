@@ -1,0 +1,25 @@
+contactbg {
+  background: url(../../assests/ContactusImage.svg) no-repeat center center;
+  display: flex;
+  height: 700px;
+
+  widows: initial;
+  background-attachment: inherit;
+  object-fit: cover;
+  background-position: right;
+
+  left: 5px;
+
+  margin: 20px 15px 15px 20px;
+}
+bgsec {
+  background: url(../../assests/sc1.svg) no-repeat;
+  display: flex;
+  height: 1000px;
+}
+h1 {
+  text-align: center;
+  padding-left: 300px;
+  padding-top: 300px;
+  font-size: 50px;
+}

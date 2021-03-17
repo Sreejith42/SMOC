@@ -1,0 +1,11 @@
+bgabout {
+  background: url(../../assests/AboutusImage.svg) no-repeat center center;
+  display: flex;
+  height: 700px;
+  widows: initial;
+  background-attachment: inherit;
+
+  background-position: right;
+
+  margin: 20px 15px 15px 20px;
+}
