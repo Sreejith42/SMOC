@@ -1,0 +1,102 @@
+.home {
+  position: relative;
+}
+
+.home-header {
+  background: url(../../assests/welcomesection.svg) no-repeat center center;
+  height: 100%;
+  padding: 100px 0px 0px 0px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-section {
+  width: 100%;
+}
+.home-header-section-one {
+  display: flex;
+  width: 100%;
+}
+.home-header-section-two {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.home-header-section-two img {
+  width: 40%;
+}
+
+.home-header-section-one div {
+  flex-basis: 50%;
+}
+
+.home-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-section-one,
+.home-section-two,
+.home-section-three {
+  width: 100%;
+  display: flex;
+  background: url(../../assests/homebg.svg) no-repeat center center;
+  background-size: cover;
+}
+.home-section-two-img img,
+.home-section-one-img img,
+.home-section-three-img img {
+  height: 400px;
+}
+
+.home-section-one-img img {
+  margin-right: -35px;
+}
+
+.home-section-two-img img {
+  margin-left: -120px;
+}
+.home-section-three-img img {
+  margin-right: -85px;
+}
+
+.home-section-one div,
+.home-section-three div {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home-section-two div {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.home-section-items {
+  flex-direction: column;
+  justify-content:flex-start !important;
+  margin-left: 20%;
+  margin-top: 50px;
+}
+
+.home-section-items-middle{
+  flex-direction: column;
+  justify-content:flex-start !important;
+  margin-right: 20%;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 901px) {
+  .home-section-items {
+    margin-left: 5%;
+
+  }
+  .home-section-items-middle{
+    margin-right: 5%;
+  }
+}

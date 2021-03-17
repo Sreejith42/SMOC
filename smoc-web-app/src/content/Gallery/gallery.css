@@ -1,0 +1,26 @@
+.gallery{
+    background: url("../../assests/homebg.svg") no-repeat center center;
+    background-size: cover;
+}
+
+.gallery-header{    
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-header-title{
+    width: 40%;
+}
+.gallery-header-image{
+    width: 60%;
+}
+.gallery-header-image img{
+    margin-right: -40px
+}
+
+.gallery-section{
+    background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
+    background-size: cover;
+    height: 700px;
+}

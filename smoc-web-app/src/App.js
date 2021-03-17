@@ -15,7 +15,7 @@ const App = () => {
         <HeaderComponent />
         <section>
           <Switch>
-            <Route exact path="/" render={() => <HomeComponent />} />
+            <Route exact path="/" render={() => <HomeComponent />} />            
             <Route path="/gallery" render={() => <GalleryComponent />} />
             <Route path="/contact-us" render={() => <ContactUsComponent />} />
             <Route path="/about-us" render={() => <AboutUsComponent />} />
