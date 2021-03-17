@@ -1,6 +1,55 @@
 footer {
   background: url(../../assests/Footer.svg) no-repeat center center;
   background-size: cover;
-  height: 300px;
   width: 100%;
+}
+
+.footer-section-content{
+  display: grid;
+  grid-template-columns: 65% 20% 20%;
+  padding: 40px 0px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-section-content-one,
+.footer-section-content-two,
+.footer-section-content-three{
+  padding: 0 20px;
+}
+
+.head-height{
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.link-section{
+  display: grid;
+}
+
+.link-section a{
+  color: black;
+}
+.footer-section-copyright{
+  text-align: center;
+}
+
+@media only screen and (max-width: 901px) {
+  .footer-section-content-one{
+    grid-area: content1;
+  }
+.footer-section-content-two{
+  grid-area: content2;
+}
+.footer-section-content-three{
+  grid-area: content3;
+}
+.footer-section-content{
+  grid-template-columns: 50% 50%;
+  grid-template-areas:"content1 content1" "content2 content3";
+  justify-items: center;
+}
+
+
 }
