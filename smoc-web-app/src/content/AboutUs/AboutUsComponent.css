@@ -1,0 +1,26 @@
+.about{
+  background: url("../../assests/homebg.svg") no-repeat center center;
+  background-size: cover;
+}
+
+.about-header{    
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.about-header-title{
+  width: 40%;
+}
+.about-header-image{
+  width: 60%;
+}
+.about-header-image img{
+  margin-right: -40px
+}
+
+.about-section{
+  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+}
