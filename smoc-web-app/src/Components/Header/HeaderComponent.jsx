@@ -44,9 +44,9 @@ const HeaderComponent = () => {
 
   useEffect(() => {
     if (window.innerWidth <= 601) {
-       setMenuVisible(true);
+      setMenuVisible(true);
     } else {
-       setMenuVisible(false);
+      setMenuVisible(false);
     }
     window.addEventListener("resize", listenFrameEvent);
     return () => window.removeEventListener("resize", listenScrollEvent);
