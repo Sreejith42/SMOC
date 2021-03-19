@@ -1,27 +1,72 @@
-.about{
+.about {
   background: url("../../assests/homebg.svg") no-repeat center center;
   background-size: cover;
 }
 
-.about-header{    
+.about-header {
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-.about-header-title{
+.about-header-title {
   width: 40%;
+  font-size: 400px;
+  display: flex;
+  margin-top: 300px;
+  margin-left: 150px;
 }
-.about-header-image{
+.about-header-image {
   width: 60%;
 }
-.about-header-image img{
-  margin-right: -40px
+.about-header-image img {
+  margin-right: -40px;
 }
 
-.about-section{
-  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
+.about-section {
+  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
+    center;
   background-size: cover;
+}
+.about-section h1 {
+  padding-left: 40px;
+}
+.about-section p {
+  color: whitesmoke;
+  padding-left: 40px;
+}
+
+.about-section img {
+  display: flex;
+  height: 400px;
+  padding-left: 0 10px 0 0;
+}
+
+h2 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-col1 {
+  padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: 80px;
+}
+.img-col2 {
+  padding: 100px;
+}
+
   height: 700px;
 }
 
