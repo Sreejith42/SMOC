@@ -1,26 +1,85 @@
-.contact{
+.contact {
   background: url("../../assests/homebg.svg") no-repeat center center;
   background-size: cover;
+  overflow: hidden;
 }
 
-.contact-header{    
-  display: flex;
-  height: 100%;
+.contact-header {
+  display: flex; 
   width: 100%;
 }
 
-.contact-header-title{
+.contact-header-title {
+  text-align: center;
+  margin: auto;
   width: 40%;
 }
-.contact-header-image{
+.contact-header-image {
   width: 60%;
 }
-.contact-header-image img{
-  margin-right: -40px
+.contact-header-image img {
+  margin-right: -40px;
 }
 
-.contact-section{
-  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
+.contact-section {
+  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
+    center;
   background-size: cover;
-  height: 700px;
+  display: flex;
+  padding: 80px 40px;
+}
+
+.contact-section-one img {
+  height: 400px;
+}
+.contact-section-one {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.contact-section-two {
+  width: 40%;
+  color: #f4f0f2;
+}
+
+.contact-section-two-opening {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #f4f0f2;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 60px;
+}
+
+.contact-section-two-info {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: max-content max-content max-content;
+  grid-column-gap: 40px;
+  grid-row-gap: 40px;
+}
+
+.contact-us-section-two-mob {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+@media only screen and (max-width: 901px) {
+  .contact-header-image img {
+    margin-right: -5px;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  .contact-section {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .contact-section-two,
+  .contact-section-one {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }

@@ -8,37 +8,67 @@ section {
   margin: auto;
 }
 
-.align-top{
+.align-top {
   text-align: center;
 }
 h1 {
-  font-size: 50px;
+  font-size: 28pt;
   font-weight: normal;
-  color: gray;
   margin: 0px;
 }
 
-h2{
-  font-size: 40px;
+h2 {
+  font-size: 28pt;
   font-weight: normal;
-  color: darkblue;
 }
-p{
+p {
   text-align: justify;
-  font-size: 20px;
-  color: darkblue;
+  font-size: 18pt;
 }
 
+h1,
+h2,
+h3,
+p {
+  color: #000066;
+}
+h3 {
+  font-size: 12pt;
+}
+
+.footer-section-copyright,
+.footer-address,
+.link-section a,
+ul {
+  color: #807b91;
+}
+
+.contact-header,
+.gallery-header,
+.about-header {
+  height: 100%;
+}
 
 @media only screen and (max-width: 901px) {
-  h1{
+  h1 {
     font-size: 35px;
   }
-  h2{
+  h2 {
     font-size: 30px;
   }
-  p{
+  p {
     font-size: 16px;
   }
-  
+}
+
+@media only screen and (max-width: 601px) {
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 15px;
+  }
 }

@@ -1,26 +1,60 @@
-.gallery{
-    background: url("../../assests/homebg.svg") no-repeat center center;
-    background-size: cover;
+.gallery {
+  background: url("../../assests/homebg.svg") no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
 }
 
-.gallery-header{    
-    display: flex;
-    height: 100%;
-    width: 100%;
+.gallery-header {
+  display: flex;  
+  width: 100%;
 }
 
-.gallery-header-title{
-    width: 40%;
+.gallery-header-title {
+  width: 40%;
+  text-align: center;
+  margin: auto;
 }
-.gallery-header-image{
-    width: 60%;
+.gallery-header-image {
+  width: 60%;
 }
-.gallery-header-image img{
-    margin-right: -40px
+.gallery-header-image img {
+  margin-right: -40px;
 }
 
-.gallery-section{
-    background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
-    background-size: cover;
-    height: 700px;
+.gallery-section {
+  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
+    center;
+  background-size: cover;
+  padding: 40px;
+}
+.gallery-section h2 {
+  color: #f4f0f2;
+}
+
+.ant-carousel {
+  width: 80% !important;
+}
+
+.gallery-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  color: unset;
+  font-size: unset;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
+
+@media only screen and (max-width: 601px) {
+  .gallery-header-image img {
+    margin-right: -5px;
+  }
 }
