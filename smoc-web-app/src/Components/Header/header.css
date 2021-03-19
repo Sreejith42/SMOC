@@ -88,4 +88,37 @@ a:active,
 .active{
     color: rgb(68, 167, 206) !important;
 }
+.header-menu-part{
+  height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon-menu{
+  font-size: 22px;
+  margin: 25px;
+}
+.header-drawer-content{
+  line-height: 2;
+  display: grid;
+}
+.header-drawer-content a{
+  padding: 10px;
+}
+.ant-drawer-body{
+  padding: 0% !important;
+}
+.ant-drawer-content-wrapper{
+  height: auto !important;
+}
 
+@media only screen and (max-width:601px){
+  .header-logo{
+    width: auto;
+  }
+  .header {
+    color: red!important;
+  }
+
+}

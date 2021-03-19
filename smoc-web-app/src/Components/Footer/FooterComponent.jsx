@@ -34,7 +34,7 @@ const FooterComponent = () => {
           <div className="head-height">
            <h3>Address</h3> 
             </div>
-          <div>
+          <div className="footer-address">
             Sports Medicine and Orthopeadic Center Gowreesapattom Pattom PO.
             Trivandrum Pin:695004
           </div>

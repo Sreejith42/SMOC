@@ -24,3 +24,9 @@
   background-size: cover;
   height: 700px;
 }
+
+@media only screen and (max-width: 901px) {
+  .contact-header-image img {
+      margin-right: -5px;
+  }
+}
