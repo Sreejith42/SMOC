@@ -1,26 +1,48 @@
-.contact{
+.contact {
   background: url("../../assests/homebg.svg") no-repeat center center;
   background-size: cover;
 }
 
-.contact-header{    
+.contact-header {
   display: flex;
   height: 100%;
   width: 100%;
 }
 
-.contact-header-title{
+.contact-header-title {
   width: 40%;
+  font-size: 50px;
+  display: flex;
+  margin-top: 300px;
+  margin-left: 150px;
+  color: grey;
 }
-.contact-header-image{
+.contact-header-image {
   width: 60%;
 }
-.contact-header-image img{
-  margin-right: -40px
+.contact-header-image img {
+  margin-right: -40px;
 }
 
-.contact-section{
-  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center center;
+.contact-section {
+  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
+    center;
   background-size: cover;
   height: 700px;
+}
+
+.contact-section img {
+  width: 300px;
+  height: 500px;
+  margin-left: 50px;
+}
+p {
+  color: whitesmoke;
+  padding-left: 200px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
