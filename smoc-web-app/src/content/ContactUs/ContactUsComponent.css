@@ -27,9 +27,9 @@
 .contact-section {
   background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
     center;
-  background-size: cover;
-  height: 700px;
+  background-size: cover; 
 }
+
 
 .contact-section img {
   width: 300px;
@@ -45,4 +45,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: end;
+}
+
+@media only screen and (max-width: 901px) {
+  .contact-header-image img {
+      margin-right: -5px;
+  }
 }
