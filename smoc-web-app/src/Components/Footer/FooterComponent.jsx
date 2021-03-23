@@ -11,20 +11,18 @@ const FooterComponent = () => {
           <div className="header-logo head-height">
             <img src={Logo} alt="logo"></img>
           </div>
-          <div>  
-            <ul>         
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-              malesuada lorem maximus mauris scelerisque, at rutrum nulla
-              dictum. Ut ac ligula sapien.   
-              </ul>         
+          <div className="footer-details">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+            malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.
+            Ut ac ligula sapien.
           </div>
         </div>
         <div className="footer-section-content-two">
           <div className="head-height">
             <h3>Useful Links</h3>
-            </div>
+          </div>
           <div className="link-section">
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/about-us">About Us</Link>
             <Link to="/gallery">Media Gallery</Link>
             <Link to="/contact-us">Contact Us</Link>
@@ -32,8 +30,8 @@ const FooterComponent = () => {
         </div>
         <div className="footer-section-content-three">
           <div className="head-height">
-           <h3>Address</h3> 
-            </div>
+            <h3>Address</h3>
+          </div>
           <div className="footer-address">
             Sports Medicine and Orthopeadic Center Gowreesapattom Pattom PO.
             Trivandrum Pin:695004
@@ -41,7 +39,7 @@ const FooterComponent = () => {
         </div>
       </div>
       <div className="footer-section-copyright">
-      Copyright ©2021 All rights reserved | Designed by FLYNT
+        Copyright ©2021 All rights reserved | Designed by FLYNT
       </div>
     </footer>
   );

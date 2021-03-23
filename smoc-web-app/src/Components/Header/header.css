@@ -118,6 +118,12 @@ header {
 .ant-drawer-content-wrapper {
   height: auto !important;
 }
+@media only screen and (max-width: 901px) {
+  .header-link-part {
+    width: 55%;
+  }
+}
+
 
 @media only screen and (max-width: 601px) {
   .header-logo {

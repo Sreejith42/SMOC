@@ -1,11 +1,12 @@
 .about {
   background: url("../../assests/homebg.svg") no-repeat center center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .about-header {
   display: flex; 
-  width: 100%;
+  width: 100%; 
 }
 
 .about-header-title {
@@ -35,7 +36,11 @@
 
 .about-section-one {
   width: 70%;
-  padding: 40px;
+  padding: 50px;
+}
+
+.about-section-two{
+  padding: 50px;
 }
 
 .about-section-two-img img {
@@ -53,6 +58,10 @@
 .about-section-two-img {
   width: 50%;
   padding: 40px;
+}
+.about-section-two-img{
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 901px) {
@@ -76,5 +85,8 @@
   .about-section-one {
     width: 100%;
     padding: 20px;
+  }
+  .about-section-two{
+    padding: 0px;
   }
 }
