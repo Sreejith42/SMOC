@@ -77,6 +77,11 @@
   justify-content: flex-start;
 }
 
+.align-middle h1 {
+  width: fit-content;
+  margin-left: 10%;
+}
+
 .home-section-items {
   flex-direction: column;
   justify-content: flex-start !important;
@@ -91,13 +96,20 @@
   margin-top: 50px;
 }
 
-
 @media only screen and (max-width: 901px) {
   .home-section-items {
     margin-left: 5%;
   }
   .home-section-items-middle {
     margin-right: 5%;
+  }
+  .align-middle h1 {
+    margin-left: 5%;
+  }
+  .home-section-one,
+  .home-section-two,
+  .home-section-three {
+    padding-top: 40px;
   }
 }
 
@@ -121,5 +133,9 @@
   .home-section-one-img img,
   .home-section-three-img img {
     height: 300px;
+  }
+
+  .align-middle h1 {
+    margin-left: 1%;
   }
 }

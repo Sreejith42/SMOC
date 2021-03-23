@@ -38,6 +38,7 @@ h3 {
 
 .footer-section-copyright,
 .footer-address,
+.footer-details,
 .link-section a,
 ul {
   color: #807b91;
@@ -63,12 +64,12 @@ ul {
 
 @media only screen and (max-width: 601px) {
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h2 {
     font-size: 18px;
   }
   p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
