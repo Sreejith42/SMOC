@@ -1,30 +1,10 @@
-.contact {
-  background: url("../../assests/homebg.svg") no-repeat center center;
+.contact {  
   background-size: cover;
   overflow: hidden;
 }
 
-.contact-header {
-  display: flex; 
-  width: 100%; 
-}
-
-.contact-header-title {
-  text-align: center;
-  margin: auto;
-  width: 40%;
-}
-.contact-header-image {
-  width: 60%;
-}
-.contact-header-image img {
-  margin-right: -40px;
-}
-
 .contact-section {
-  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
-    center;
-  background-size: cover;
+  background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107));
   display: flex;
   padding: 80px 40px;
 }

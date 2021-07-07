@@ -1,6 +1,6 @@
 import React from "react";
 import "./gallery.css";
-import MediaHeader from "../../assests/Mediaheader.svg";
+import { ReactComponent as MediaHeader }from "../../assests/Mediaheader.svg";
 import { Carousel } from "antd";
 import { ArrowRightOutlined,ArrowLeftOutlined } from "@ant-design/icons";
 
@@ -14,12 +14,15 @@ const GalleryComponent = () => {
   };
   return (
     <div className="gallery">
-      <div className="gallery-header">
-        <div className="gallery-header-title">
-          <h1>Media Gallery</h1></div>
-        <div className="gallery-header-image">
-          <img src={MediaHeader} alt="mediaheader"></img>
-        </div>
+          <div className="home-header">
+        <div className="home-header-section-one">
+          <div className="align-middle">
+          <h1>Media </h1>
+          </div>
+          <div>
+            <MediaHeader />
+          </div>
+        </div>        
       </div>
       <div className="gallery-section">
         <div>

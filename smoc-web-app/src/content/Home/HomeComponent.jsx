@@ -18,10 +18,7 @@ const HomeComponent = () => {
           <div>
             <HeaderImage />
           </div>
-        </div>
-        <div className="home-header-section-two">
-          <img src={WheelChair} alt="React Logo" />
-        </div>
+        </div>        
       </div>
       <div className="home-section">
         <div className="home-section-one">

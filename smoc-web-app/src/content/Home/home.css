@@ -3,9 +3,9 @@
 }
 
 .home-header {
-  background: url(../../assests/welcomesection.svg) no-repeat center center;
+  /* background: url(../../assests/welcomesection.svg) no-repeat center center; */
   height: 100%;
-  padding: 100px 0px 0px 0px;
+  padding: 55px 0px 0px 0px;
   background-size: cover;
   display: flex;
   flex-direction: column;

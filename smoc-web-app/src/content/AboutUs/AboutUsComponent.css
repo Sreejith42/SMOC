@@ -1,30 +1,10 @@
-.about {
-  background: url("../../assests/homebg.svg") no-repeat center center;
-  background-size: cover;
+.about { 
+  background-size: cover; 
   overflow-x: hidden;
 }
 
-.about-header {
-  display: flex; 
-  width: 100%; 
-}
-
-.about-header-title {
-  text-align: center;
-  margin: auto;
-  width: 40%;
-}
-.about-header-image {
-  width: 60%;
-}
-.about-header-image img {
-  margin-right: -40px;
-}
-
 .about-section {
-  background: url(../../assests/sectionmediagallerybg.svg) no-repeat center
-    center;
-  background-size: cover;
+  background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107));
 }
 .about-section h1,
 .about-section p {

@@ -1,18 +1,22 @@
 import React from "react";
 import "./ContactUsComponent.css";
-import ContactHeader from "../../assests/ContactusImage.svg";
+import { ReactComponent as ContactHeader }  from "../../assests/ContactusImage.svg";
+import { ReactComponent as HeaderImage } from "../../assests/homeheaderimage.svg";
+
 import Map from "../../assests/Map.png";
 
 const ContactUsComponent = () => {
   return (
-    <div className="contact">
-      <div className="contact-header">
-        <div className="contact-header-title">
+    <div className="contact">   
+      <div className="home-header">
+        <div className="home-header-section-one">
+          <div className="align-middle">
           <h1>Contact Us</h1>
-        </div>
-        <div className="contact-header-image">
-          <img src={ContactHeader} alt="contactheader"></img>
-        </div>
+          </div>
+          <div>
+            <ContactHeader />
+          </div>
+        </div>        
       </div>
 
       <div className="contact-section">
