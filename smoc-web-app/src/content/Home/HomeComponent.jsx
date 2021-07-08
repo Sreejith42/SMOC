@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import { ReactComponent as HeaderImage } from "../../assests/homeheaderimage.svg";
-import WheelChair from "../../assests/wheelchairassist.svg";
+// import WheelChair from "../../assests/wheelchairassist.svg";
 import Orthopeadic from "../../assests/Orthopedics.svg";
 import Physiotherapy from "../../assests/Physiotherapy.svg";
 import sportmedicine from "../../assests/Sportsmedicine.svg";

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ContactUsComponent.css";
 import { ReactComponent as ContactHeader }  from "../../assests/ContactusImage.svg";
-import { ReactComponent as HeaderImage } from "../../assests/homeheaderimage.svg";
+// import { ReactComponent as HeaderImage } from "../../assests/homeheaderimage.svg";
 
 import Map from "../../assests/Map.png";
 

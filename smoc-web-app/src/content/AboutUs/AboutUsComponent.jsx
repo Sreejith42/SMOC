@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutUsComponent.css";
 import { ReactComponent as AboutHeader } from "../../assests/AboutusImage.svg";
-import DRORTHO from "../../assests/DrSrinivas.svg";
-import PHYSICIAN from "../../assests/DrGopan.svg";
-import { List, Avatar, Space } from "antd";
-import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
+// import DRORTHO from "../../assests/DrSrinivas.svg";
+// import PHYSICIAN from "../../assests/DrGopan.svg";
+import { List } from "antd";
+// import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
 
 const AboutUsComponent = () => {
   const listData = [];
@@ -21,12 +21,12 @@ const AboutUsComponent = () => {
     });
   }
 
-  const IconText = ({ icon, text }) => (
-    <Space>
-      {React.createElement(icon)}
-      {text}
-    </Space>
-  );
+  // const IconText = ({ icon, text }) => (
+  //   <Space>
+  //     {React.createElement(icon)}
+  //     {text}
+  //   </Space>
+  // );
   return (
     <div className="about">
       <div className="home-header">
