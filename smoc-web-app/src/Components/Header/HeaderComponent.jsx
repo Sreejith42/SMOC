@@ -66,7 +66,7 @@ const HeaderComponent = () => {
             About Us
           </Link>
           <Link to="/gallery" className={gallery && "active"}>
-            Media Gallery
+            Testimonials
           </Link>
           <Link to="/contact-us" className={contact && "active"}>
             Contact Us

@@ -2,10 +2,13 @@
   background-size: cover; 
   overflow-x: hidden;
 }
-
-.about-section {
-  background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107));
+.about-us-header-image{
+  padding-top: 20px;
 }
+
+/* .about-section { */
+  /* background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107)); */
+/* } */
 .about-section h1,
 .about-section p {
   color: #f4f0f2;

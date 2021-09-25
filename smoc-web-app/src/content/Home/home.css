@@ -4,7 +4,7 @@
 
 .home-header {
   /* background: url(../../assests/welcomesection.svg) no-repeat center center; */
-  height: 100%;
+  height: fit-content;
   padding: 55px 0px 0px 0px;
   background-size: cover;
   display: flex;
@@ -32,6 +32,7 @@
 
 .home-header-section-one div {
   flex-basis: 50%;
+  width: 50%;
 }
 
 .home-section {
@@ -44,7 +45,7 @@
 .home-section-three {
   width: 100%;
   display: flex;
-  background: url(../../assests/homebg.svg) no-repeat center center;
+  /* background: url(../../assests/homebg.svg) no-repeat center center; */
   background-size: cover;
 }
 .home-section-two-img img,

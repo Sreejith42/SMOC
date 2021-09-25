@@ -1,17 +1,29 @@
-.gallery {  
+.gallery {
   background-size: cover;
   overflow: hidden;
 }
 .gallery-section {
-  background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107));
+  /* background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107)); */
   padding: 40px;
 }
 .gallery-section h2 {
-  color: #f4f0f2;
+  color: #000066;
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  font-size: xx-large !important;
+}
+.ant-carousel .slick-prev {
+  left: -60px;
+}
+.ant-carousel .slick-next {
+  right: -40px;
 }
 
 .ant-carousel {
-  width: 80% !important;
+  width: 65% !important;
+  margin: auto;
 }
 
 .gallery-carousel {
@@ -35,5 +47,9 @@
 @media only screen and (max-width: 601px) {
   .gallery-header-image img {
     margin-right: -5px;
+  }
+  .ant-carousel .slick-prev,
+  .ant-carousel .slick-next {
+    font-size: large !important;
   }
 }

@@ -4,9 +4,9 @@
 }
 
 .contact-section {
-  background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107));
+  /* background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107)); */
   display: flex;
-  padding: 80px 40px;
+  padding: 50px 40px;
 }
 
 .contact-section-one img {
@@ -15,21 +15,23 @@
 .contact-section-one {
   width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .contact-section-two {
   width: 40%;
-  color: #f4f0f2;
+  color: #000066;
+  font-weight: bold;
 }
 
 .contact-section-two-opening {
-  width: fit-content;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #f4f0f2;
+  border: 3px solid #000066;
   padding: 20px;
   border-radius: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .contact-section-two-info {

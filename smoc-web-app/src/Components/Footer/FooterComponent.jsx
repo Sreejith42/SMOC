@@ -12,9 +12,10 @@ const FooterComponent = () => {
             <img src={Logo} alt="logo"></img>
           </div>
           <div className="footer-details">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum.
-            Ut ac ligula sapien.
+            Specialist in Joint Preservation (conservative treatment,
+            arthroscopy, open surgery and osteotomy) & Joint Replacement
+            (primary, complex primary and revision surgery). Keen interest in
+            research and management of Infected Joint Replacements.
           </div>
         </div>
         <div className="footer-section-content-two">
@@ -24,7 +25,7 @@ const FooterComponent = () => {
           <div className="link-section">
             <Link to="/">Home</Link>
             <Link to="/about-us">About Us</Link>
-            <Link to="/gallery">Media Gallery</Link>
+            <Link to="/gallery">Testimonials</Link>
             <Link to="/contact-us">Contact Us</Link>
           </div>
         </div>
@@ -33,8 +34,15 @@ const FooterComponent = () => {
             <h3>Address</h3>
           </div>
           <div className="footer-address">
-            Sports Medicine and Orthopeadic Center Gowreesapattom Pattom PO.
-            Trivandrum Pin:695004
+            <div>
+              Ortho Zone,
+              <br />
+              TC 13/851 KVR - 237,
+              <br />
+              Mulavana Junction, Vanchiyoor PO,
+              <br />
+              Thiruvananthapuram - 695035
+            </div>
           </div>
         </div>
       </div>
