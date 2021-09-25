@@ -23,8 +23,8 @@ const ContactUsComponent = () => {
         <div className="contact-section-one">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8661992577054!2d76.92587981473075!3d8.512369793880328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb5d9e16ba5%3A0x2307c8d6db328e6c!2sOrtho%20Zone!5e0!3m2!1sen!2sin!4v1632240592099!5m2!1sen!2sin"
-            width="650"
             height="450"
+            style={{height:"-webkit-fill-available"}}
             title="our location"
             loading="lazy"
           ></iframe>
@@ -32,8 +32,8 @@ const ContactUsComponent = () => {
 
         <div className="contact-section-two">
           <div className="contact-section-two-opening">
-            <div>Opening Hours</div>
-            <div>Daily 2:00pm - 7:00pm</div>
+            <h2>Opening Hours</h2>
+            <h2>Daily 2:00pm - 7:00pm</h2>
           </div>
           <div className="contact-section-two-info">
             <div>Address :</div>

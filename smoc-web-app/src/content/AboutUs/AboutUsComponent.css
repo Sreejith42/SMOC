@@ -47,9 +47,21 @@
   justify-content: center;
 }
 
+.list-item-image-desc{
+  display: flex;
+  justify-content: space-between;
+  text-align: justify;
+}
+.list-item-image-desc img{
+  padding: 10px;
+}
+
 @media only screen and (max-width: 901px) {
   .about-header-image img {
     margin-right: -5px;
+  }
+  .list-item-image-desc{
+   flex-direction: column-reverse;
   }
 }
 

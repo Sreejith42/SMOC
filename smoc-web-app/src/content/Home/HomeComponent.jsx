@@ -12,8 +12,8 @@ const HomeComponent = () => {
       <div className="home-header">
         <div className="home-header-section-one">
           <div className="align-middle">
-            <h1>Sports Medicine &</h1>
-            <h1>Orthopeadic Center</h1>
+            <h1>Ortho Zone</h1>
+            <h1>'We Keeps You Moving'</h1>
           </div>
           <div>
             <HeaderImage />

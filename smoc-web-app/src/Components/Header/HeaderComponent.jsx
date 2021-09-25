@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./header.css";
 import { Link, useRouteMatch } from "react-router-dom";
-import Logo from "../../assests/Footerlogo.svg";
+import OSC from "../../assests/osc.jpg";
 import { Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 
@@ -55,7 +55,7 @@ const HeaderComponent = () => {
   return (
     <div className={header}>
       <div className="header-logo">
-        <img src={Logo} alt="logo"></img>
+        <img src={OSC} alt="logo"></img>
       </div>
       {!menuVisible ? (
         <div className="header-link-part">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
-import Logo from "../../assests/Footerlogo.svg";
+import OSC from "../../assests/osc.jpg";
 
 const FooterComponent = () => {
   return (
@@ -9,7 +9,7 @@ const FooterComponent = () => {
       <div className="footer-section-content">
         <div className="footer-section-content-one">
           <div className="header-logo head-height">
-            <img src={Logo} alt="logo"></img>
+            <img src={OSC} alt="logo"></img>
           </div>
           <div className="footer-details">
             Specialist in Joint Preservation (conservative treatment,

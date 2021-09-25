@@ -135,16 +135,54 @@ const GalleryComponent = () => {
               prevArrow={<LeftOutlined />}
             >
               <div>
-                <h3 style={contentStyle}>1</h3>
+                <iframe
+                  style={contentStyle}
+                  src="https://www.youtube.com/embed/klCq8hZ0JNw"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
               <div>
-                <h3 style={contentStyle}>2</h3>
+                <iframe
+                  style={contentStyle}
+                  src="https://www.youtube.com/embed/slG4auRJano"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
               <div>
-                <h3 style={contentStyle}>3</h3>
+                <iframe
+                  style={contentStyle}
+                  src="https://www.youtube.com/embed/7qbpGUeBpOs"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
               <div>
-                <h3 style={contentStyle}>4</h3>
+                <iframe
+                  style={contentStyle}
+                  src="https://www.youtube.com/embed/fXptnVR-hME"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div>
+                <iframe
+                  style={contentStyle}
+                  src="https://www.youtube.com/embed/g4N3z-nLLag"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
               </div>
             </Carousel>
           </div>

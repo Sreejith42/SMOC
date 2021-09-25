@@ -1,4 +1,4 @@
-.contact {  
+.contact {
   background-size: cover;
   overflow: hidden;
 }
@@ -7,15 +7,15 @@
   /* background-image: linear-gradient(to right,  #2c2c99, rgb(67, 11, 107)); */
   display: flex;
   padding: 50px 40px;
+  justify-content: space-between;
 }
 
 .contact-section-one img {
   height: 400px;
 }
 .contact-section-one {
-  width: 60%;
-  display: flex;
-  justify-content: flex-start;
+  width: 55%;
+  display: flex; 
 }
 .contact-section-two {
   width: 40%;
@@ -48,9 +48,24 @@
   grid-column-gap: 20px;
   grid-row-gap: 30px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .contact-section-two,
+  .contact-section-one {
+    width: 45%;
+  }
+}
 @media only screen and (max-width: 901px) {
   .contact-header-image img {
     margin-right: -5px;
+  }
+  .contact-section-two,
+  .contact-section-one {
+    width: 100%;
+  }
+  .contact-section {
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 }
 
