@@ -3,7 +3,7 @@ import "./AboutUsComponent.css";
 // import { ReactComponent as AboutHeader } from "../../assests/AboutusImage.svg";
 import AboutUs from "../../assests/AboutUs.jpg";
 import { List } from "antd";
-import DoctorSrinivas from "../../assests/DrSrinivas.jpeg"
+import DoctorSrinivas from "../../assests/DrSrinivas.jpeg";
 // import { MessageOutlined, LikeOutlined, StarOutlined } from "@ant-design/icons";
 
 const AboutUsComponent = () => {
@@ -13,13 +13,15 @@ const AboutUsComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>About Us</h1>
-            <p>
-              Management of sports injuries, <br />
+            <ul>
+              ' Management of sports injuries,
+              <br />
               Sports injury rehabilitation,
               <br />
-              Management and rehabilitation of joint disorders including joint
-              replacement surgeries
-            </p>
+              Management and rehabilitation of joint disorders
+              <br />
+              including joint replacement surgeries '
+            </ul>
           </div>
           <div className="about-us-header-image">
             <img src={AboutUs} alt="aboutus" />
@@ -35,7 +37,7 @@ const AboutUsComponent = () => {
               style={{
                 backgroundColor: "white",
                 borderRadius: "10px",
-                marginTop: "20px",
+                marginTop: "50px",
                 boxShadow:
                   "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
               }}
@@ -60,7 +62,9 @@ const AboutUsComponent = () => {
                       Al-Arif Hospitals, Trivandrum Training
                     </h3>
                     <img
-                      width={272}                     
+                      height={180}
+                      width={180}
+                      style={{ borderRadius: "50%", margin: "auto" }}
                       alt="docimage"
                       src={DoctorSrinivas}
                     />
@@ -89,7 +93,7 @@ const AboutUsComponent = () => {
               style={{
                 backgroundColor: "white",
                 borderRadius: "10px",
-                marginTop: "20px",
+                marginTop: "50px",
                 boxShadow:
                   "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
               }}
@@ -110,8 +114,10 @@ const AboutUsComponent = () => {
                       OrthoZone.
                     </h3>
                     <img
-                      width={272}
-                      alt="logo"
+                      height={180}
+                      width={180}
+                      style={{ borderRadius: "50%", margin: "auto" }}
+                      alt="docimage"
                       src="https://gw.alipayobjects.com/zos/rmsportal/mqaQswcyDLcXyDKnZfES.png"
                     />
                   </div>

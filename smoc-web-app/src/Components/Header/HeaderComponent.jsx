@@ -4,6 +4,10 @@ import { Link, useRouteMatch } from "react-router-dom";
 import OSC from "../../assests/osc.jpg";
 import { Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
+import YouTube from "../../assests/youtube.png";
+import Twitter from "../../assests/twitter.png";
+import Instagram from "../../assests/instagram.png";
+import Facebook from "../../assests/facebook.png";
 
 const HeaderComponent = () => {
   const [header, setHeader] = useState("header");
@@ -35,7 +39,7 @@ const HeaderComponent = () => {
   }, []);
 
   const listenFrameEvent = (event) => {
-    if (window.innerWidth <= 601) {
+    if (window.innerWidth <= 840) {
       return setMenuVisible(true);
     } else {
       return setMenuVisible(false);
@@ -43,7 +47,7 @@ const HeaderComponent = () => {
   };
 
   useEffect(() => {
-    if (window.innerWidth <= 601) {
+    if (window.innerWidth <= 840) {
       setMenuVisible(true);
     } else {
       setMenuVisible(false);
@@ -56,6 +60,13 @@ const HeaderComponent = () => {
     <div className={header}>
       <div className="header-logo">
         <img src={OSC} alt="logo"></img>
+        <p className="header-title-text">Ortho Zone</p>
+      </div>
+      <div className="social-media-navigation">
+        <img src={Facebook} alt="facebook" />
+        <img src={Instagram} alt="instagram" />
+        <img src={YouTube} alt="youtube" />
+        <img src={Twitter} alt="twitter" />
       </div>
       {!menuVisible ? (
         <div className="header-link-part">
@@ -81,7 +92,7 @@ const HeaderComponent = () => {
       <Drawer
         placement="right"
         closable={false}
-        width={150}
+        height={"100vh"}
         onClose={onClose}
         visible={visible}
       >
@@ -93,7 +104,7 @@ const HeaderComponent = () => {
             About Us
           </Link>
           <Link to="/gallery" className={gallery && "active"}>
-            Media Gallery
+            Testimonials
           </Link>
           <Link to="/contact-us" className={contact && "active"}>
             Contact Us

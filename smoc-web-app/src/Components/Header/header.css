@@ -16,7 +16,7 @@ header {
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: transparent;
   width: 100%;
   height: 80px;
@@ -32,7 +32,7 @@ header {
   left: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   height: 80px;
   background-color: white;
@@ -41,26 +41,35 @@ header {
   animation: myanimation 3s;
   z-index: 5;
 }
+
+.social-media-navigation {
+  width: fit-content;
+}
+.social-media-navigation img {
+  margin: 0 10px;
+  width: 30px;
+}
 .header-logo {
-  width: 20%;
+  width: fit-content;
   display: flex;
   justify-content: center;
 }
 
-.header-logo img { 
+.header-logo img {
   height: 80px;
 }
 
-@keyframes myanimation {
-  0% {
-    background-color: transparent;
-  }
-  35% {
-    background-color: white;
-  }
-  100% {
-    background-color: white;
-  }
+.ant-drawer-wrapper-body {
+  height: 100vh;
+}
+
+.header-title-text {
+  align-items: center;
+  height: fit-content;
+  margin: auto;
+  font-size: large;
+  font-weight: bold;
+  margin-left: 20px;
 }
 
 .header-link-part {
@@ -70,6 +79,8 @@ header {
   font-weight: bolder;
 }
 
+.header-drawer-content,
+.header-drawer-content a,
 .header .header-menu-part,
 .header .header-link-part a {
   color: #000066;
@@ -88,6 +99,12 @@ header {
   border-bottom: 2px solid #000066;
 }
 
+.header-drawer-content .active,
+.header-drawer-content a:hover,
+.header-drawer-content a:active {
+  background-color: #ababda;
+}
+
 .header2 a:hover,
 .header2 a:active,
 .header2 .active {
@@ -95,7 +112,7 @@ header {
 }
 .header-menu-part {
   height: 100%;
-  width: 30%;
+  width: fit-content;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -121,11 +138,28 @@ header {
   .header-link-part {
     width: 55%;
   }
+  .header-logo img {
+    height: 60px;
+  }
 }
-
 
 @media only screen and (max-width: 601px) {
   .header-logo {
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .header-logo img {
+    height: 40px;
+  }
+  .social-media-navigation img {
+    width: 22px;
+    margin: 0 3px;
+  }
+  .header-title-text {
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
   }
 }

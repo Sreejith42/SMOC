@@ -43,6 +43,9 @@
 .ant-carousel .slick-next:focus {
   color: unset;
 }
+.gallery-section h2 {
+  margin-top: 30px;
+}
 
 @media only screen and (max-width: 601px) {
   .gallery-header-image img {

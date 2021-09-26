@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
 import OSC from "../../assests/osc.jpg";
+import YouTube from "../../assests/youtube.png";
+import Twitter from "../../assests/twitter.png";
+import Instagram from "../../assests/instagram.png";
+import Facebook from "../../assests/facebook.png";
 
 const FooterComponent = () => {
   return (
@@ -10,6 +14,7 @@ const FooterComponent = () => {
         <div className="footer-section-content-one">
           <div className="header-logo head-height">
             <img src={OSC} alt="logo"></img>
+            <p className="header-title-text">Ortho Zone</p>
           </div>
           <div className="footer-details">
             Specialist in Joint Preservation (conservative treatment,
@@ -46,8 +51,14 @@ const FooterComponent = () => {
           </div>
         </div>
       </div>
+      <div className="social-media-navigation footer-social-navigation">
+        <img src={Facebook} alt="facebook" />
+        <img src={Instagram} alt="instagram" />
+        <img src={YouTube} alt="youtube" />
+        <img src={Twitter} alt="twitter" />
+      </div>
       <div className="footer-section-copyright">
-        Copyright ©2021 All rights reserved | Designed by FLYNT
+        Copyright © 2021 All rights reserved by FLYNT TECHNOLOGIES
       </div>
     </footer>
   );
