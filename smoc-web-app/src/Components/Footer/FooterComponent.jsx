@@ -8,6 +8,21 @@ import Instagram from "../../assests/instagram.png";
 import Facebook from "../../assests/facebook.png";
 
 const FooterComponent = () => {
+  const handleClickFacebook = () => {
+    window.open("https://www.facebook.com/orthozonetvm/");
+  };
+
+  const handleClickInstagram = () => {
+    window.open("https://instagram.com/orthozonetvm?utm_medium=copy_link");
+  };
+
+  const handleCliCkTwitter = () => {
+    window.open("https://twitter.com/ZoneOrtho");
+  };
+
+  const handleClickYoutube = () => {
+    window.open("https://www.youtube.com/channel/UCLooonVA3Ft1i3KtKP5_chg");
+  };
   return (
     <footer>
       <div className="footer-section-content">
@@ -52,10 +67,18 @@ const FooterComponent = () => {
         </div>
       </div>
       <div className="social-media-navigation footer-social-navigation">
-        <img src={Facebook} alt="facebook" />
-        <img src={Instagram} alt="instagram" />
-        <img src={YouTube} alt="youtube" />
-        <img src={Twitter} alt="twitter" />
+        <img
+          src={Facebook}
+          alt="facebook"
+          onClick={() => handleClickFacebook()}
+        />
+        <img
+          src={Instagram}
+          alt="instagram"
+          onClick={() => handleClickInstagram()}
+        />
+        <img src={YouTube} alt="youtube" onClick={() => handleClickYoutube()} />
+        <img src={Twitter} alt="twitter" onClick={() => handleCliCkTwitter()} />
       </div>
       <div className="footer-section-copyright">
         Copyright © 2021 All rights reserved by FLYNT TECHNOLOGIES

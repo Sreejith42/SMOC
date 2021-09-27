@@ -5,9 +5,10 @@
 .about-us-header-image {
   display: flex;
   justify-content: center;
+  padding: 20px 0px;
 }
 .about-us-header-image img {
-  width: 90%;
+  width: 100%;
 }
 
 /* .about-section { */

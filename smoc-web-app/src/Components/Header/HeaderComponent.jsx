@@ -56,6 +56,21 @@ const HeaderComponent = () => {
     return () => window.removeEventListener("resize", listenScrollEvent);
   }, []);
 
+  const handleClickFacebook = () => {
+    window.open("https://www.facebook.com/orthozonetvm/");
+  };
+
+  const handleClickInstagram = () => {
+    window.open("https://instagram.com/orthozonetvm?utm_medium=copy_link");
+  };
+
+  const handleCliCkTwitter = () => {
+    window.open("https://twitter.com/ZoneOrtho");
+  };
+
+  const handleClickYoutube = () => {
+    window.open("https://www.youtube.com/channel/UCLooonVA3Ft1i3KtKP5_chg");
+  };
   return (
     <div className={header}>
       <div className="header-logo">
@@ -63,10 +78,18 @@ const HeaderComponent = () => {
         <p className="header-title-text">Ortho Zone</p>
       </div>
       <div className="social-media-navigation">
-        <img src={Facebook} alt="facebook" />
-        <img src={Instagram} alt="instagram" />
-        <img src={YouTube} alt="youtube" />
-        <img src={Twitter} alt="twitter" />
+        <img
+          src={Facebook}
+          alt="facebook"
+          onClick={() => handleClickFacebook()}
+        />
+        <img
+          src={Instagram}
+          alt="instagram"
+          onClick={() => handleClickInstagram()}
+        />
+        <img src={YouTube} alt="youtube" onClick={() => handleClickYoutube()} />
+        <img src={Twitter} alt="twitter" onClick={() => handleCliCkTwitter()} />
       </div>
       {!menuVisible ? (
         <div className="header-link-part">
@@ -97,6 +120,10 @@ const HeaderComponent = () => {
         visible={visible}
       >
         <div className="header-drawer-content">
+          <div className="header-logo">
+            <img src={OSC} alt="logo"></img>
+            <p className="header-title-text">Ortho Zone</p>
+          </div>
           <Link to="/" className={!(about || gallery || contact) && "active"}>
             Home
           </Link>
