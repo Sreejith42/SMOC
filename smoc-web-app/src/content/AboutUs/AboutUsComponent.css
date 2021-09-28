@@ -9,6 +9,13 @@
 }
 .about-us-header-image img {
   width: 100%;
+  margin-left: 10px;
+}
+.about-us-content-list{
+  text-align: initial;  
+}
+.content-about-align{
+  margin-left: 40px;
 }
 
 /* .about-section { */
@@ -73,6 +80,9 @@
 @media only screen and (max-width: 601px) {
   .about-section-two-container-one {
     flex-direction: column;
+  }
+  .about-us-content-list{
+    margin-left: 3%;
   }
   .about-section-two-container-two {
     flex-direction: column-reverse;

@@ -79,7 +79,8 @@ const GalleryComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Testimonials </h1>
-            <ul>
+            <br/>
+            <ul className="about-us-content-list">
               ' Here are some images and videos
               <br /> that perfectly describe our profession.
               <br /> Scroll and have a go through it '

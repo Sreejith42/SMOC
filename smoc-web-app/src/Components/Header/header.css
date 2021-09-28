@@ -134,6 +134,9 @@ header {
 .ant-drawer-content-wrapper {
   height: auto !important;
 }
+.social-navigation-drawer{
+  margin: auto;
+}
 @media only screen and (max-width: 901px) {
   .header-link-part {
     width: 55%;
@@ -154,7 +157,7 @@ header {
     height: 40px;
   }
   .social-media-navigation img {
-    width: 22px;
+    width: 25px;
     margin: 0 3px;
   }
   .header-title-text {

@@ -124,18 +124,56 @@ const HeaderComponent = () => {
             <img src={OSC} alt="logo"></img>
             <p className="header-title-text">Ortho Zone</p>
           </div>
-          <Link to="/" className={!(about || gallery || contact) && "active"}>
+          <Link
+            to="/"
+            className={!(about || gallery || contact) && "active"}
+            onClick={() => onClose()}
+          >
             Home
           </Link>
-          <Link to="/about-us" className={about && "active"}>
+          <Link
+            to="/about-us"
+            className={about && "active"}
+            onClick={() => onClose()}
+          >
             About Us
           </Link>
-          <Link to="/gallery" className={gallery && "active"}>
+          <Link
+            to="/gallery"
+            className={gallery && "active"}
+            onClick={() => onClose()}
+          >
             Testimonials
           </Link>
-          <Link to="/contact-us" className={contact && "active"}>
+          <Link
+            to="/contact-us"
+            className={contact && "active"}
+            onClick={() => onClose()}
+          >
             Contact Us
           </Link>
+          <div className="social-media-navigation social-navigation-drawer">
+            <img
+              src={Facebook}
+              alt="facebook"
+              onClick={() => handleClickFacebook()}
+            />
+            <img
+              src={Instagram}
+              alt="instagram"
+              onClick={() => handleClickInstagram()}
+            />
+            <img
+              src={YouTube}
+              alt="youtube"
+              onClick={() => handleClickYoutube()}
+            />
+            <img
+              src={Twitter}
+              alt="twitter"
+              onClick={() => handleCliCkTwitter()}
+            />
+          </div>
         </div>
       </Drawer>
     </div>

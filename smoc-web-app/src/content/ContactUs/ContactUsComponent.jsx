@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUsComponent.css";
-import { ReactComponent as ContactHeader } from "../../assests/ContactusImage.svg";
+import ContactUs from "../../assests/ContactUsImage.jpg";
 const ContactUsComponent = () => {
   return (
     <div className="contact">
@@ -8,16 +8,21 @@ const ContactUsComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Contact Us</h1>
+            <br/>
+            <ul className="about-us-content-list">
+              ' Here are some ways to connect with us '
+            </ul>
           </div>
-          <div>
-            <ContactHeader />
+
+          <div className="about-us-header-image">
+            <img src={ContactUs} alt="Contactus" />
           </div>
         </div>
       </div>
 
       <div className="contact-section-two-opening">
         <h2>Opening Hours</h2>
-        <h2>Daily 2:00pm - 7:00pm</h2>
+        <h2>Daily 2:00 PM - 7:00 PM</h2>
       </div>
 
       <div className="contact-section">
@@ -52,7 +57,7 @@ const ContactUsComponent = () => {
             <div>Phone :</div>
 
             <div className="contact-us-section-two-mob">
-              <div>Dr.Sinivas R </div>
+              <div> Dr Srinivas R </div>
               <div>+91 9847222346</div>
 
               <div>Dr GOPAN N </div>

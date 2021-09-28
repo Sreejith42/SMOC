@@ -40,6 +40,7 @@
   grid-template-rows: max-content max-content max-content;
   grid-column-gap: 40px;
   grid-row-gap: 40px;
+  justify-content: center;
 }
 
 .contact-us-section-two-mob {

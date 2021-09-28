@@ -4,6 +4,12 @@ import homeHeader from "../../assests/homeHead.jpg";
 import Orthopeadic from "../../assests/Orthopedics.svg";
 import Physiotherapy from "../../assests/Physiotherapy.svg";
 import sportmedicine from "../../assests/Sportsmedicine.svg";
+import Elbow from "../../assests/elbow.jpg";
+import Lumbar from "../../assests/lumbar.jpg";
+import Other from "../../assests/other.jpg";
+import Sacaral from "../../assests/sacaral.jpg";
+import Spine from "../../assests/spine.jpg";
+import Wrist from "../../assests/wrist.jpg";
 import { Card } from "antd";
 const { Meta } = Card;
 
@@ -14,7 +20,8 @@ const HomeComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Ortho Zone</h1>
-            <ul>' We Keeps You Moving '</ul>
+            <br/>
+            <ul className="about-us-content-list">' We Keeps You Moving '</ul>
           </div>
           <div className="about-us-header-image">
             <img src={homeHeader} alt="homeimage" />
@@ -53,9 +60,9 @@ const HomeComponent = () => {
           <div className="home-section-two-img">
             <img src={sportmedicine} alt="sport" />
           </div>
-          <div className="home-section-items">
+          <div className="home-section-items home-section-items-two">
             <h2>Hip & Ankle & Elbow</h2>
-            <div className="home-section-content-details">
+            <div className="home-section-content-details ">
               <ul>
                 <li>Hip ACR</li>
                 <li>Bipolar Arthroscopy</li>
@@ -102,7 +109,7 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Elbow}
               />
             }
           >
@@ -123,7 +130,7 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Wrist}
               />
             }
           >
@@ -145,15 +152,14 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Spine}
               />
             }
           >
             <Meta
               title={
                 <h3>
-                  Cervicaa Vertebrae <br />
-                  (Spine)
+                  Cervicaa Vertebrae(Spine)
                 </h3>
               }
               description={
@@ -172,7 +178,7 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Lumbar}
               />
             }
           >
@@ -196,7 +202,7 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Sacaral}
               />
             }
           >
@@ -217,7 +223,7 @@ const HomeComponent = () => {
             cover={
               <img
                 alt="example"
-                src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                src={Other}
               />
             }
           >

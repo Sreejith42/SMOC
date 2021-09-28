@@ -23,11 +23,18 @@ const FooterComponent = () => {
   const handleClickYoutube = () => {
     window.open("https://www.youtube.com/channel/UCLooonVA3Ft1i3KtKP5_chg");
   };
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
   return (
     <footer>
       <div className="footer-section-content">
         <div className="footer-section-content-one">
-          <div className="header-logo head-height">
+          <div className="header-logo head-height-logo">
             <img src={OSC} alt="logo"></img>
             <p className="header-title-text">Ortho Zone</p>
           </div>
@@ -43,10 +50,18 @@ const FooterComponent = () => {
             <h3>Useful Links</h3>
           </div>
           <div className="link-section">
-            <Link to="/">Home</Link>
-            <Link to="/about-us">About Us</Link>
-            <Link to="/gallery">Testimonials</Link>
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/" onClick={() => scrollToTop()}>
+              Home
+            </Link>
+            <Link to="/about-us" onClick={() => scrollToTop()}>
+              About Us
+            </Link>
+            <Link to="/gallery" onClick={() => scrollToTop()}>
+              Testimonials
+            </Link>
+            <Link to="/contact-us" onClick={() => scrollToTop()}>
+              Contact Us
+            </Link>
           </div>
         </div>
         <div className="footer-section-content-three">

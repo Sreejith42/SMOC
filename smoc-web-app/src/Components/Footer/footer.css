@@ -5,6 +5,7 @@ footer {
   width: 100%;
   color: #000066;
   font-weight: bold;
+  border-top: 1px solid;
 }
 
 .link-section a:hover {
@@ -29,11 +30,17 @@ footer {
   padding: 0 25px;
 }
 
-.head-height {
+.head-height{
   height: 80px;
   display: flex;
   align-items: center;
+}
+
+.head-height-logo {
+  height: 80px;
   width: fit-content;
+  display: flex;
+  align-items: center;
   margin: auto;
 }
 .link-section {
@@ -82,7 +89,11 @@ footer {
   }
   .head-height {
     height: fit-content;
-    justify-content: center;
+    justify-content: center;    
+  }
+  .footer-section-content-three .head-height{
+    width: fit-content;
+    margin: auto;
   }
   .footer-section-content-one,
   .footer-section-content-two,
@@ -93,6 +104,7 @@ footer {
     margin-left: 0px;
   }
 
+  .link-section a,
   .link-section {
     text-align: center;
   }
