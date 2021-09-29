@@ -48,6 +48,7 @@ header {
 .social-media-navigation img {
   margin: 0 10px;
   width: 30px;
+  cursor: pointer;
 }
 .header-logo {
   width: fit-content;

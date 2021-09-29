@@ -5,7 +5,6 @@ import { List } from "antd";
 import DoctorSrinivas from "../../assests/DrSrinivas.jpeg";
 import DoctorGopan from "../../assests/Gopan.jpeg";
 
-
 const AboutUsComponent = () => {
   return (
     <div className="about">
@@ -117,6 +116,7 @@ const AboutUsComponent = () => {
                     </h3>
                     <img
                       height={200}
+                      width={200}
                       style={{ borderRadius: "50%", margin: "auto" }}
                       alt="docimage"
                       src={DoctorGopan}
