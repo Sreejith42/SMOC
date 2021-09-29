@@ -57,7 +57,7 @@ const FooterComponent = () => {
               About Us
             </Link>
             <Link to="/gallery" onClick={() => scrollToTop()}>
-              Testimonials
+              Media Gallery
             </Link>
             <Link to="/contact-us" onClick={() => scrollToTop()}>
               Contact Us

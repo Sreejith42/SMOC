@@ -100,7 +100,7 @@ const HeaderComponent = () => {
             About Us
           </Link>
           <Link to="/gallery" className={gallery && "active"}>
-            Testimonials
+            Media Gallery
           </Link>
           <Link to="/contact-us" className={contact && "active"}>
             Contact Us
@@ -143,7 +143,7 @@ const HeaderComponent = () => {
             className={gallery && "active"}
             onClick={() => onClose()}
           >
-            Testimonials
+            Media Gallery
           </Link>
           <Link
             to="/contact-us"

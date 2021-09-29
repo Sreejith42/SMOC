@@ -78,7 +78,7 @@ const GalleryComponent = () => {
       <div className="home-header">
         <div className="home-header-section-one">
           <div className="align-middle">
-            <h1>Testimonials </h1>
+            <h1>Media Gallery</h1>
             <br/>
             <ul className="about-us-content-list">
               ' Here are some images and videos

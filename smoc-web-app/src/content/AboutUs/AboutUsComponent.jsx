@@ -49,7 +49,7 @@ const AboutUsComponent = () => {
                   <div className="list-item-image-desc">
                     <h3>
                       Dr. Srinivas did his Undergraduate and post graduate
-                      training at Medical college trivandrum. He also obtained
+                      training at Medical college Trivandrum. He also obtained
                       Diplomate of National Board from the National Board of
                       Exams,Newdelhi. He underwent various training both in
                       India and abroad in countries like Australia,France and
@@ -63,8 +63,8 @@ const AboutUsComponent = () => {
                       Al-Arif Hospitals, Trivandrum Training
                     </h3>
                     <img
-                      height={180}
-                      width={180}
+                      height={200}
+                      width={200}
                       style={{ borderRadius: "50%", margin: "auto" }}
                       alt="docimage"
                       src={DoctorSrinivas}
@@ -101,22 +101,22 @@ const AboutUsComponent = () => {
               }}
             >
               <List.Item.Meta
-                title={<h2>DR. Gopan BPT, MPT (Physiotherapist)</h2>}
+                title={<h2>DR. Gopan - BPT, MPT (Physiotherapist)</h2>}
                 description={
                   <div className="list-item-image-desc">
                     <h3>
                       Dr Gopan did his bachelors degrees in Physiotherapy from
-                      PSG Institute of Medical Science and Research , Coimbatore
+                      PSG Institute of Medical Science and Research, Coimbatore
                       and he has completed his Masters from Rajiv Gandhi
                       university, Bangalore.
                       <br />
                       <br /> With more than 13 years of hands-on excellence in
                       his key areas which are Orthopaedic and sports injury
                       management, currently he is the consultant physiotherapist
-                      at OrthoZone.
+                      at Ortho Zone, Trivandrum.
                     </h3>
                     <img
-                      height={180}
+                      height={200}
                       style={{ borderRadius: "50%", margin: "auto" }}
                       alt="docimage"
                       src={DoctorGopan}

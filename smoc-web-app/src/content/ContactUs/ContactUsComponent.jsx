@@ -57,10 +57,10 @@ const ContactUsComponent = () => {
             <div>Phone :</div>
 
             <div className="contact-us-section-two-mob">
-              <div> Dr Srinivas R </div>
+              <div> DR Srinivas R </div>
               <div>+91 9847222346</div>
 
-              <div>Dr GOPAN N </div>
+              <div>DR GOPAN N </div>
 
               <div>+91 9496351211</div>
             </div>
