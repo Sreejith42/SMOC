@@ -13,7 +13,7 @@ const GalleryComponent = () => {
   const listenFrameEvent = (event) => {
     if (window.innerWidth <= 500) {
       return setContentStyle({
-        height: "150px",
+        height: "230px",
         width: "100%",
         color: "#fff",
         lineHeight: "160px",
@@ -22,7 +22,7 @@ const GalleryComponent = () => {
       });
     } else if (window.innerWidth <= 900) {
       return setContentStyle({
-        height: "200px",
+        height: "300px",
         width: "100%",
         color: "#fff",
         lineHeight: "160px",
@@ -44,7 +44,7 @@ const GalleryComponent = () => {
   useEffect(() => {
     if (window.innerWidth <= 500) {
       setContentStyle({
-        height: "150px",
+        height: "230px",
         width: "100%",
         color: "#fff",
         lineHeight: "160px",
@@ -53,7 +53,7 @@ const GalleryComponent = () => {
       });
     } else if (window.innerWidth <= 900) {
       return setContentStyle({
-        height: "200px",
+        height: "300px",
         width: "100%",
         color: "#fff",
         lineHeight: "160px",
