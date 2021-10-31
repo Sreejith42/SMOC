@@ -8,10 +8,14 @@ const ContactUsComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Contact Us</h1>
-            <br/>
+            <br />
             <ul className="about-us-content-list">
               ' Here are some ways to connect with us '
             </ul>
+            <div className="contact-section-two-opening">
+              <h2>Opening Hours</h2>
+              <h2>Daily 2:00 PM - 7:00 PM</h2>
+            </div>
           </div>
 
           <div className="about-us-header-image">
@@ -20,18 +24,12 @@ const ContactUsComponent = () => {
         </div>
       </div>
 
-      <div className="contact-section-two-opening">
-        <h2>Opening Hours</h2>
-        <h2>Daily 2:00 PM - 7:00 PM</h2>
-      </div>
-
       <div className="contact-section">
         <div className="contact-section-one">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.8661992577054!2d76.92587981473075!3d8.512369793880328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05bbb5d9e16ba5%3A0x2307c8d6db328e6c!2sOrtho%20Zone!5e0!3m2!1sen!2sin!4v1632240592099!5m2!1sen!2sin"
-            height="450"
-            style={{
-              height: "-webkit-fill-available",
+            height="400"
+            style={{            
               width: "-webkit-fill-available",
             }}
             title="our location"

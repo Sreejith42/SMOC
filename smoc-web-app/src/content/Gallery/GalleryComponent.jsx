@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./gallery.css";
-import { ReactComponent as MediaHeader } from "../../assests/Mediaheader.svg";
+// import { ReactComponent as MediaHeader } from "../../assests/Mediaheader.svg";
 import GalleryImageOne from "../../assests/GalleryImageOne.jpg";
 import GalleryImageTwo from "../../assests/GalleryImageTwo.jpg";
 import GalleryImageThree from "../../assests/GalleryImageThree.jpg";
@@ -76,7 +76,7 @@ const GalleryComponent = () => {
   return (
     <div className="gallery">
       <div className="home-header">
-        <div className="home-header-section-one">
+        {/* <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Media Gallery</h1>
             <br/>
@@ -89,11 +89,11 @@ const GalleryComponent = () => {
           <div>
             <MediaHeader />
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="gallery-section">
         <div>
-          <h2>Images</h2>
+        <h1>Media Gallery</h1>
           <div className="gallery-carousel">
             <Carousel
               arrows

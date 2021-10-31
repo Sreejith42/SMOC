@@ -1,9 +1,9 @@
 import React from "react";
 import "./home.css";
 import homeHeader from "../../assests/homeHead.jpg";
-import Orthopeadic from "../../assests/Orthopedics.svg";
-import Physiotherapy from "../../assests/Physiotherapy.svg";
-import sportmedicine from "../../assests/Sportsmedicine.svg";
+import Orthopeadic from "../../assests/shoulder.jpg";
+import Physiotherapy from "../../assests/knee.jpg";
+import sportmedicine from "../../assests/hip.jpg";
 import Elbow from "../../assests/elbow.jpg";
 import Lumbar from "../../assests/lumbar.jpg";
 import Other from "../../assests/other.jpg";
@@ -20,7 +20,7 @@ const HomeComponent = () => {
         <div className="home-header-section-one">
           <div className="align-middle">
             <h1>Ortho Zone</h1>
-            <br/>
+            <br />
             <ul className="about-us-content-list">' We Keeps You Moving '</ul>
           </div>
           <div className="about-us-header-image">
@@ -52,12 +52,12 @@ const HomeComponent = () => {
               </ul>
             </div>
           </div>
-          <div className="home-section-one-img">
+          <div>
             <img src={Orthopeadic} alt="ortho" />
           </div>
         </div>
         <div className="home-section-two">
-          <div className="home-section-two-img">
+          <div>
             <img src={sportmedicine} alt="sport" />
           </div>
           <div className="home-section-items home-section-items-two">
@@ -99,19 +99,14 @@ const HomeComponent = () => {
               </ul>
             </div>
           </div>
-          <div className="home-section-three-img">
+          <div>
             <img src={Physiotherapy} alt="physio" />
           </div>
         </div>
         <div className="home-section-four">
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Elbow}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Elbow} />}
           >
             <Meta
               title={<h3>Elbow</h3>}
@@ -126,13 +121,8 @@ const HomeComponent = () => {
             />
           </Card>
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Wrist}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Wrist} />}
           >
             <Meta
               title={<h3>Wrist & Fingers</h3>}
@@ -148,20 +138,11 @@ const HomeComponent = () => {
             />
           </Card>
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Spine}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Spine} />}
           >
             <Meta
-              title={
-                <h3>
-                  Cervicaa Vertebrae(Spine)
-                </h3>
-              }
+              title={<h3>Cervicaa Vertebrae(Spine)</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -174,13 +155,8 @@ const HomeComponent = () => {
             />
           </Card>
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Lumbar}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Lumbar} />}
           >
             <Meta
               title={<h3>Lumbar Spine</h3>}
@@ -198,13 +174,8 @@ const HomeComponent = () => {
             />
           </Card>
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Sacaral}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Sacaral} />}
           >
             <Meta
               title={<h3>Sacral & Coccyx</h3>}
@@ -219,13 +190,8 @@ const HomeComponent = () => {
             />
           </Card>
           <Card
-            style={{ width: 300 }}
-            cover={
-              <img
-                alt="example"
-                src={Other}
-              />
-            }
+            style={{ width: 320 }}
+            cover={<img alt="example" src={Other} />}
           >
             <Meta
               title={<h3>Other Conditions</h3>}

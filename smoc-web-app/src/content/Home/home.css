@@ -183,9 +183,8 @@
     margin: 2% 5%;
   }
   .home-section-items-two {
-    width: fit-content;
-    margin-left: auto;
-    margin-right: 5%;
+    width: fit-content;   
+    margin-right: 0%;
   }
 
   .home-section-items-middle {

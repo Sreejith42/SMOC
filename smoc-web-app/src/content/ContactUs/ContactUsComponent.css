@@ -14,23 +14,25 @@
   height: 400px;
 }
 .contact-section-one {
-  width: 55%;
-  display: flex; 
+  width: 50%;
+  display: flex;
+  height: 400px;
 }
 .contact-section-two {
-  width: 40%;
+  width: 45%;
   color: #000066;
   font-weight: bold;
+  font-size: large;
 }
 
 .contact-section-two-opening {
-  width: 75%;
+  width: 90% !important;
   margin-left: auto;
   margin-right: auto;
   border: 3px solid #000066;
-  padding: 20px;
+  padding: 15px;
   border-radius: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -55,14 +57,21 @@
   .contact-section-one {
     width: 45%;
   }
+  .contact-section-two-opening h2 {
+    font-size: 24px;
+  }
 }
 @media only screen and (max-width: 901px) {
   .contact-header-image img {
     margin-right: -5px;
   }
+  .contact-section-two {
+    font-size: medium;
+  }
   .contact-section-two,
   .contact-section-one {
     width: 100%;
+    margin-top: 20px;
   }
   .contact-section {
     flex-direction: column-reverse;
@@ -79,5 +88,17 @@
   .contact-section-one {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .contact-section-two-opening h2 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-section-two {
+    font-size: xx-small;
+  }
+  .contact-section-two-opening h2 {
+    font-size: x-small;
   }
 }
