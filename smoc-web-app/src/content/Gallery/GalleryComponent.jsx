@@ -93,7 +93,7 @@ const GalleryComponent = () => {
       </div>
       <div className="gallery-section">
         <div>
-        <h1>Media Gallery</h1>
+        <h1>Images</h1>
           <div className="gallery-carousel">
             <Carousel
               arrows

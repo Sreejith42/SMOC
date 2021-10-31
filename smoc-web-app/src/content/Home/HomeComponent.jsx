@@ -11,6 +11,7 @@ import Sacaral from "../../assests/sacaral.jpg";
 import Spine from "../../assests/spine.jpg";
 import Wrist from "../../assests/wrist.jpg";
 import { Card } from "antd";
+import OSC from "../../assests/osc.jpg";
 const { Meta } = Card;
 
 const HomeComponent = () => {
@@ -19,9 +20,17 @@ const HomeComponent = () => {
       <div className="home-header">
         <div className="home-header-section-one">
           <div className="align-middle">
-            <h1>Ortho Zone</h1>
+            <span className="home-header-data">
+              <img src={OSC} alt="logo" style={{ width: "30%" }}></img>
+              <div className="home-header-data-inner">
+                <h1>Ortho Zone</h1>
+                <ul className="about-us-content-list">
+                  ' We Keeps You Moving '
+                </ul>
+              </div>
+            </span>
+
             <br />
-            <ul className="about-us-content-list">' We Keeps You Moving '</ul>
           </div>
           <div className="about-us-header-image">
             <img src={homeHeader} alt="homeimage" />
