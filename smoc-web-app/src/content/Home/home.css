@@ -83,6 +83,9 @@
   width: fit-content;
   margin-left: 40px;
 }
+.hip-ankle{
+  margin-top:5px !important;
+}
 
 .home-section-items {
   flex-direction: column;

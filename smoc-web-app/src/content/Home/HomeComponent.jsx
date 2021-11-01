@@ -69,7 +69,7 @@ const HomeComponent = () => {
           <div>
             <img src={sportmedicine} alt="sport" />
           </div>
-          <div className="home-section-items home-section-items-two">
+          <div className="home-section-items home-section-items-two hip-ankle">
             <h2>Hip & Ankle & Elbow</h2>
             <div className="home-section-content-details ">
               <ul>
