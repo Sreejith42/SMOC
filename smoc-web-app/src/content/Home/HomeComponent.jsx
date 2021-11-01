@@ -87,7 +87,6 @@ const HomeComponent = () => {
         </div>
         <div className="home-section-three">
           <div className="home-section-items">
-            <h2>Knee</h2>
             <div className="home-section-content-details">
               <ul>
                 <li>ACL & PCL Reconstruction</li>
@@ -118,7 +117,7 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Elbow} />}
           >
             <Meta
-              title={<h3>Elbow</h3>}
+              title={<h3 style={{ color: "#000066" }}>Elbow</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -134,7 +133,7 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Wrist} />}
           >
             <Meta
-              title={<h3>Wrist & Fingers</h3>}
+              title={<h3 style={{ color: "#000066" }}>Wrist & Fingers</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -151,7 +150,9 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Spine} />}
           >
             <Meta
-              title={<h3>Cervicaa Vertebrae(Spine)</h3>}
+              title={
+                <h3 style={{ color: "#000066" }}>Cervicaa Vertebrae(Spine)</h3>
+              }
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -168,7 +169,7 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Lumbar} />}
           >
             <Meta
-              title={<h3>Lumbar Spine</h3>}
+              title={<h3 style={{ color: "#000066" }}>Lumbar Spine</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -187,7 +188,7 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Sacaral} />}
           >
             <Meta
-              title={<h3>Sacral & Coccyx</h3>}
+              title={<h3 style={{ color: "#000066" }}>Sacral & Coccyx</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>
@@ -203,7 +204,7 @@ const HomeComponent = () => {
             cover={<img alt="example" src={Other} />}
           >
             <Meta
-              title={<h3>Other Conditions</h3>}
+              title={<h3 style={{ color: "#000066" }}>Other Conditions</h3>}
               description={
                 <div className="home-section-content-details">
                   <ul>

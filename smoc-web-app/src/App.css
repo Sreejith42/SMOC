@@ -42,8 +42,7 @@ h2 {
 }
 p,
 li,
-ul,
-h3 {
+ul {
   color: black !important;
 }
 

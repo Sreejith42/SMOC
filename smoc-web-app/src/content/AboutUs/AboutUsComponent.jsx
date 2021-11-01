@@ -3,7 +3,7 @@ import "./AboutUsComponent.css";
 import AboutUs from "../../assests/AboutUs.jpg";
 import { List } from "antd";
 import DoctorSrinivas from "../../assests/DrSrinivas.jpeg";
-import DoctorGopan from "../../assests/Gopan.jpeg";
+import DoctorGopan from "../../assests/GopanDR.jpg";
 
 const AboutUsComponent = () => {
   return (
