@@ -87,6 +87,7 @@ const HomeComponent = () => {
         </div>
         <div className="home-section-three">
           <div className="home-section-items">
+            <h2>Knee</h2>
             <div className="home-section-content-details">
               <ul>
                 <li>ACL & PCL Reconstruction</li>
